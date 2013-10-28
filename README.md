@@ -27,12 +27,13 @@ Starting the Antena New Relic Server Status Plugin Agent
 
 1. Copy `config/template_newrelic.properties` to `config/newrelic.properties`
 2. Edit `config/newrelic.properties` and replace `YOUR_LICENSE_KEY_HERE` with your New Relic license key
-3. From your shell run: `java -jar antena-server-monitoring-*.jar`
-4. Look for error-free startup messages on stdout, such as "com.newrelic.metrics.publish.Runner setupAndRun" and "INFO: New Relic monitor started."
-5. Wait a few minutes for New Relic to start processing the data sent from your agent.
-6. Sign in to your New Relic account.
-7. From the New Relic menu bar, look for the ServerStats plugin.
-8. To view your plugin's summary page, click the plugin's name ("ServerStats").
+3. Edit `co.antena.newrelic.plugins.serverstatus.json´ with the name of the server where the plugin will be installed.
+4. From your shell run: `java -jar antena-server-monitoring-*.jar`
+5. Look for error-free startup messages on stdout, such as "com.newrelic.metrics.publish.Runner setupAndRun" and "INFO: New Relic monitor started."
+6. Wait a few minutes for New Relic to start processing the data sent from your agent.
+7. Sign in to your New Relic account.
+8. From the New Relic menu bar, look for the ServerStats plugin.
+9. To view your plugin's summary page, click the plugin's name ("ServerStats").
 
 Source Code
 -----------
