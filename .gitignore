@@ -1,0 +1,8 @@
+.classpath
+waveform-beta.jar
+build/
+dist/
+META-INF/
+bin/
+.project
+/bin
